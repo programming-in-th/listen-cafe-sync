@@ -12,7 +12,7 @@ const db = admin.firestore();
 
 const query = db
   .collection("submissions")
-  .orderBy("timestamp")
+  .orderBy("timestamp", "desc")
   .limit(1)
   .where("status", "==", "in_queue");
 query.onSnapshot(snapshot => {
