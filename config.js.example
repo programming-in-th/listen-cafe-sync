@@ -1,2 +1,2 @@
-exports.FIREBASE_CREDENTIAL_FILE = 'grader-something.json'
-exports.BASE_URL = 'https://yoururl.cloudfunctions.net'
+exports.FIREBASE_CREDENTIAL_FILE = 'grader-something.json';
+exports.PORT = '8080';
